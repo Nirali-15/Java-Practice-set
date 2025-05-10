@@ -1,0 +1,17 @@
+DK (Java Development Kit) is a software development environment used to develop Java applications. It includes:
+
+JRE (Java Runtime Environment): For running Java programs.
+
+Java Compiler (javac): To compile Java code into bytecode.
+
+Java Debugger (jdb), tools, and libraries: For debugging and development.
+
+🔹 Key JDK Components (Important for Coding Rounds)
+Component	Purpose
+javac	Compiles .java files into .class bytecode
+java	Runs the compiled .class files
+jdb	Java Debugger
+jar	Packages Java files into .jar archives
+javap	Disassembles class files to bytecode level
+javadoc	Generates documentation from comments
+

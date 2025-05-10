@@ -1,0 +1,92 @@
+A java program may contain many classes of which only one class will have a main method. 
+The class will contain data members and methods that operate on the data members of the class.
+we first need to define classes and then put them together.
+---------------------------------
+Package list;
+public class <class name>;
+{
+    Data member;
+    constructor functions;
+    user-defined functions;
+    public static void main(String args[])
+    {
+        Block of statements;
+    }
+}
+------------------------------------
+-> Package : collection of classes. by default java.lang.* package is imported by every program.
+
+-> Class: a keyword for developing user-defined datatypes. Every program must start with a prototype of the class. The class is declared public 
+        means all classes can access the class from all packages.
+
+-> class name : name given to class. is considered as a kind of user-defined datatype.
+
+->Data members: also known as attributes , fields, are variables that are defined inside a class or object. 
+                are the data or properties that an object has.
+                ex: a car's color, model, year.
+
+->Constructor: constructor function is called when an object of the class is created.
+            It is a block of code that initializes the newly created object.
+            has same name as class name
+            does not have a return type
+            is called automatically when a new instance of an object is created
+
+->new:is used with constructor to create new objects.
+        allocates memory for the object
+        calls  the constructor to initialize the object
+        returns the reference to the object
+        syntax: classname objname = new classname();
+
+-> main: All java program start their execution with the main() method, hence is called as the backbone of the program. 
+    The JVM starts running any program by executing the main() method. 
+    Java's main() method is not returning any vlaue, so its return type must be void.
+
+-> static: keyword, main() method executes only once throughout the life of java program and before the object creation , so its nature must be static. 
+
+-> public: access specifier, main() is accessed in all the java programs, so its access specifier must be public.
+
+-> String args[] : each and every main() method must take an array of objects  of the String class as an argument.
+
+-> block of statements: set of executable statements written for calling user-defined methods of the class.
+
+
+-> Types of data members: java class is a collection of data members and functions.
+Two types: 
+i) non-static/ instance data members : memory will be allocated each and every time whenever an object is created.
+                                        Instance variabe stores specific values.
+                                        Instance variable decalration never preceded by a keyword static. ex: int stu1,stu2 ......studn;
+                                        These variables must be accessed with object name. objectame.stud1;
+
+ii) Static / class data members : memory will be allocated only once, whenever the class is loaded in the main memory regardlessof the no. of objects created.
+                                    stores common values
+                                    always preceded by keyword static. ex: static int stud1, stud2......studn;
+                                    These variables must be accessed with class name. className.stud1;
+
+-> Methods:
+Types:
+1) non-static/ instance methods:  are used to perfrom repetitive tasks like reading records from the file,etc.
+                                does not require static keyword. 
+                                syntax: void net_Salary(parameters if any)
+                                {
+                                    block of statements;
+                                }
+                                must be accessed with respective object name.
+                                result of the instance method is not shared. every object has its own copy of instace method. 
+
+2) static/class methods: are used to perfrom single operations like opening the files, etc
+                        must start with static. 
+                        syntax: static void basic_salary(parameters if any)
+                        {
+                            block of statements;
+                        }
+                        must be accesed with respective class name
+                        results of static method always shared by objects of the same class.
+
+_____________________________________________________________________________________________________________________________
+
+-> class: a blueprint that defines the properties and behaviour of an object.
+        ex: design or blueprint of a car.
+-> object: instance of a class, representing a real-world entity. it has its own attributs and methods.follows the class structure.
+        ex: specific car like toyota, hyundai
+-> instance: specific object created from a class. 
+            ex: particular car toyota with its own attributes like color, mileage, etc

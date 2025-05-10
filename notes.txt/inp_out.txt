@@ -1,0 +1,17 @@
+3 standard or default streams:
+i) System.in : standard input stream, used to read characters from the keyboard or any other standard input device.
+
+ii) System.out: standard output stream, used to produce the result of a program on screen.
+various print functions used to output statements are:
+
+i) print() : to print text on the console. This method prints the text on the console and the cursor reamins at the end of the text at the console.
+the next printing takes place just from here.
+o/p ex: hello! hello! hello!
+
+ii)println(): used to display a text on the console. it prints the text on the console and the cursor moves to the start of the next line at the console.
+the next printing takes from next line
+o/p ex: hello !
+        hello!
+
+iii)printf(): similar to printf in c. upper 2 methods may take single arguments but this may tak multiple arguments. used to format the output in java.
+sopln("x=%d%n",x);

@@ -1,0 +1,15 @@
+Two types of import: 
+i) SPECIFIC IMPORT : import package1[.package2].(myclass);
+import java.util.Scanner -> imports scanner class from java.util
+
+II) WILDCARD IMPORT: import package1[.package2].*;
+import java.util.* -> imports all classes and interfaces from java.util
+
+package 1 :Top level package
+package 2: sub level package
+
+USE: allows to use classes and interfaces from other packages in your codewithout having to fully qualify them with theiir package names.
+    improves readability, reduces code size, 
+
+
+

@@ -1,0 +1,3 @@
+arguments: The actual value that is passed to the method when it is called.
+parameter: A variable listed inside the parentheses in the method declaration.
+Parameters are used in method definitions, arguments are used in method calls.

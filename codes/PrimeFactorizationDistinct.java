@@ -25,8 +25,10 @@ public class PrimeFactorizationDistinct {
         }
 
         // If number > 2, it's a prime itself
-        if (number != 1) {
+        if (number > 2) {
             System.out.print(number);
+            // all the numbers > 2 have some prime factor. 1 is the only number which does
+            // not have any prime factor
         }
 
     }

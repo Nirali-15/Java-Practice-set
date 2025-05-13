@@ -15,3 +15,5 @@ o/p ex: hello !
 
 iii)printf(): similar to printf in c. upper 2 methods may take single arguments but this may tak multiple arguments. used to format the output in java.
 sopln("x=%d%n",x);
+; -> means the end of line . 
+\n -> A\nB -> A will be print in one line and B in the next line .

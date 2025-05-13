@@ -1,0 +1,16 @@
+Java is a typed language.
+Before declaring var , we need to declare the type of var. 
+
+1) Primitive datatype: built in (64 bits or 32 bits)
+byte -1 byte =8 bits
+short
+int=4 byte
+long- 8 byte
+float -4
+double-8
+char -2 byte
+boolean -1 byte
+
+2) Non-primitive datatype:
+string
+array

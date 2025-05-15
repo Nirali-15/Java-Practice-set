@@ -1,0 +1,59 @@
+ Array List Methods: 
+ 
+ 1. add() - Add elements
+        list.add("Apple");
+        list.add("Banana");
+        list.add("Mango");
+
+ 2. add(index, element) - Add at specific index
+list.add(1, "Orange");
+
+3. get(index) - Get element at index
+System.out.println("Element at index 0: " + list.get(0));
+
+4. set(index, element) - Replace element at index
+list.set(2, "Grapes");
+
+5. remove(index) - Remove by index
+list.remove(1);
+
+6. remove(Object) - Remove by value
+list.remove("Apple");
+
+7. contains() - Check if element exists
+System.out.println("Contains Mango? " + list.contains("Mango"));
+
+8. isEmpty() - Check if list is empty
+System.out.println("Is list empty? " + list.isEmpty());
+
+9. size() - Get size of list
+System.out.println("Size of list: " + list.size());
+
+10. indexOf() - Get index of element
+System.out.println("Index of Grapes: " + list.indexOf("Grapes"));
+
+11. lastIndexOf() - Get last index of element
+list.add("Mango"); // Add duplicate for demo
+System.out.println("Last index of Mango: " + list.lastIndexOf("Mango"));
+
+12. toArray() - Convert to array
+Object[] array = list.toArray();
+System.out.println("Array elements:");
+for (Object obj : array) {
+    System.out.println(obj);
+}
+
+13. forEach() - Loop using lambda
+System.out.println("Using forEach:");
+list.forEach(item -> System.out.println(item));
+
+14. iterator() - Loop using iterator
+System.out.println("Using Iterator:");
+Iterator<String> it = list.iterator();
+while (it.hasNext()) {
+    System.out.println(it.next());
+}
+
+
+15. clear() - Clear the list
+list.clear();

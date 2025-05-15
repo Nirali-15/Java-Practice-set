@@ -1,0 +1,70 @@
+1. length()
+String s = "Hello";
+int len = s.length();  // Returns 5
+
+2. charAt(int index)
+char ch = s.charAt(1);  // Returns 'e'
+
+3. substring(int beginIndex)
+String sub1 = s.substring(2);  // "llo"
+
+4. substring(int beginIndex, int endIndex)
+String sub2 = s.substring(1, 4);  // "ell"
+
+5. equals(String another)
+boolean isEqual = s.equals("Hello");  // true
+
+6. equalsIgnoreCase(String another)
+boolean isSame = s.equalsIgnoreCase("hello");  // true
+
+7. toUpperCase()
+String upper = s.toUpperCase();  // "HELLO"
+
+8. toLowerCase()
+String lower = s.toLowerCase();  // "hello"
+
+9. trim()
+String t = "  Java  ";
+String trimmed = t.trim();  // "Java"
+
+10. contains(CharSequence seq)
+boolean hasWord = s.contains("ell");  // true
+
+11. startsWith(String prefix)
+boolean start = s.startsWith("He");  // true
+
+12. endsWith(String suffix)
+boolean end = s.endsWith("lo");  // true
+
+13. indexOf(char ch)
+int pos1 = s.indexOf('l');  // 2
+
+14. indexOf(String str)
+int pos2 = s.indexOf("lo");  // 3
+
+15. lastIndexOf(char ch)
+int lastPos = s.lastIndexOf('l');  // 3
+
+16. replace(char oldChar, char newChar)
+String replaced = s.replace('l', 'x');  // "Hexxo"
+
+17. replaceAll(String regex, String replacement)
+String cleaned = "ab123cd".replaceAll("[0-9]", "");  // "abcd"
+
+18. split(String regex)
+String[] words = "a,b,c".split(",");  // ["a", "b", "c"]
+
+19. isEmpty()
+boolean empty = "".isEmpty();  // true
+
+20. matches(String regex)
+boolean valid = "abc123".matches("[a-z0-9]+");  // true
+
+21. compareTo(String anotherString)
+int result = "abc".compareTo("abd");  // returns negative (because 'c' < 'd')
+
+22. valueOf(int value)
+String numStr = String.valueOf(123);  // "123"
+
+23. toCharArray()
+char[] chars = s.toCharArray();  // ['H', 'e', 'l', 'l', 'o']

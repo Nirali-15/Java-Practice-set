@@ -29,7 +29,5 @@ public class Add_Strings {
         }
 
         System.out.println("Sum: " + result.reverse().toString());
-
-        sc.close();
     }
 }

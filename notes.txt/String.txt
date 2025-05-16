@@ -81,3 +81,5 @@ Java provides three classes to represent the sequence of characters i.e. String,
 
 ->STRINGBUFFER: 1. synchronized  2. Thread safe  3. slower compares to stringbuilder  4. multi threaded
                    syntax:  StringBuffer str = new StringBuffer();
+
+When using length method for strings use (), for arrays dont user ().

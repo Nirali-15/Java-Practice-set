@@ -1,3 +1,4 @@
+
 import java.util.*;
 
 public class pow {
@@ -14,7 +15,8 @@ public class pow {
         long pow = (long) Math.pow(10, count - 1); // power value
         System.out.println(pow);
         num = ori;
-        while (pow >= 1);c
+        while (pow >= 1)
+            ;
         {
             int dig = (int) (num / pow);
             System.out.println(dig);

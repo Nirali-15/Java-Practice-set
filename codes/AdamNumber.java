@@ -1,5 +1,5 @@
 
-/*Aadam number:
+/*Adam number:
  input 12
  * 12 *12 =144
  * reverse of 12 =21

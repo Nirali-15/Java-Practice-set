@@ -1,3 +1,5 @@
+package Bit_Manipulation;
+
 import java.util.*;
 
 public class Shifting {
@@ -10,5 +12,5 @@ public class Shifting {
     }
 }
 
-// the ans by the right sshift will be divided by 2 whereas
+// the ans by the right shift will be divided by 2 whereas
 // the ans of the left shift will be multiplied by 2

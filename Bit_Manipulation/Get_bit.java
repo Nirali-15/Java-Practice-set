@@ -10,9 +10,9 @@ import java.util.*;
 public class Get_bit {
     public static void main(String args[]) {
         Scanner sc = new Scanner(System.in);
-        int num = sc.nextInt();
-        int i = sc.nextInt();
-        int bit = (num >> i) + 1;
+        int num1 = sc.nextInt();
+        int position = sc.nextInt();
+        int bit = (num1 >> position) + 1;
         System.out.println(bit & 1);
 
     }

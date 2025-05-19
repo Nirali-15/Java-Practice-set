@@ -1,7 +1,8 @@
 /*Happy number: sum of squares of its digit , process eventually reaches 1.
  19 -> 1+81=82
- 82 = 64+ 44=100
+ 82 = 64+ 4=100
  100= 1+0+0=1
+
  
  22-> not a happy number
  * 

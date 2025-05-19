@@ -1,3 +1,9 @@
 Bitwise operators:
 
-& - AND  || - OR  
+& - AND     || - OR     ! -NOT     ^ -XOR    >> - RIGHT SHIFT    <<- LEFT SHIFT
+
+In binary:
+
+1 is called a "set bit" — it means the bit is "on" or "enabled."
+
+0 is called a "clear bit" or "unset bit" — it means the bit is "off" or "disabled."

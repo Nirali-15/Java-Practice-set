@@ -1,0 +1,19 @@
+Java Methods are blocks of code that perform a specific task. 
+A method allows us to reuse code, improving both efficiency and organization. All methods in Java must belong to a class. 
+Methods are similar to functions and expose the behavior of objects.
+
+<access_modifier> <return_type> <method_name>( list_of_parameters)
+{
+    //body
+}
+
+Function: A Function is a reusable piece of code. It can have input data on which it can operate (i.e. arguments) and it can also return data by having a return type. It is the concept of procedural and functional programming languages.
+
+Method: The working of the method is similar to a function i.e. it also can have input parameters/arguments and can also return data by having a return type but has two important differences when compared to a function.
+
+A method is associated or related to the instance of the object it is called using.
+A method is limited to operating on data inside the class in which the method is contained.
+It is a concept of object-oriented programming language.
+
+Function: It is called by its own name/independently. As it is called independently it means the data is passed explicitly or externally.
+Method: It is called by its object's name/referenced. As it is called dependently which means the data is passed implicitly or internally.

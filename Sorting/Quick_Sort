@@ -1,0 +1,42 @@
+import java.util.*;
+public class Quick_sort
+{
+    public static void Quicksort(int [] arr,int start,int end)
+    {
+                if(end<start) return;
+                int pivot = Pivotval(arr,start,end);
+                Quicksort(arr,start,pivot-1);
+                Quicksort(arr,pivot+1,end);
+    }
+    public static int Pivotval(int arr[],int start,int end)
+    {
+        int pivot = arr[end];
+        int check1 = start-1;
+        int check2=start;
+        for(check2=start;check2<=end-1;check2++)
+        {
+            if(arr[check2]<pivot)
+            {
+                check1++;
+                int temp = arr[check1];
+                arr[check1] = arr[check2];
+                arr[check2] = temp;
+            }
+        }
+        check1++;
+        int temp = arr[check1];
+        arr[check1] = arr[check2];
+        arr[check2] = temp;
+        //System.out.println("pivot: "+check1);
+        return check1;
+    }
+	public static void main(String[] args) {
+		int [] arr = {8,2,3,1,6,7,9,4,5};
+		Quicksort(arr,0,arr.length-1);
+		for(int itr = 0;itr<arr.length;itr++)
+		{
+		    System.out.print(arr[itr]+" ");
+		}
+		
+	}
+}

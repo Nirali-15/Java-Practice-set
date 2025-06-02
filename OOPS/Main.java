@@ -1,6 +1,7 @@
 package OOPS;
 
-public class Class {
+//class creation and object usage
+public class Main {
     public static void main(String args[]) {
         Patient Nirali;// obj declaration
         Nirali = new Patient();// instantiation of object
